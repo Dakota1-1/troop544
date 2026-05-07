@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.style.opacity = '0.8';
 
       const formData = new FormData(contactForm);
-      formData.append('access_key', 'PASTE_YOUR_KEY_HERE');
+      formData.append('access_key', '2b411d83-0b4f-4388-a00c-362bd8882c78');
       formData.append('subject', 'New Troop 544 Website Inquiry');
       formData.append('from_name', 'Troop 544 Website');
       formData.append('replyto', formData.get('email') || '');
